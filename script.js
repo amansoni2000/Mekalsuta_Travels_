@@ -11,7 +11,7 @@ document.getElementById('contact-form').addEventListener('submit', function(e) {
     var whatsappMessage = `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
 
     // WhatsApp URL
-    var whatsappUrl = `https://wa.me/8085580634?text=${whatsappMessage}`;
+    var whatsappUrl = `https://wa.me/918085580634?text=${whatsappMessage}`;
 
     // Open WhatsApp
     window.open(whatsappUrl, '_blank');
